@@ -1,0 +1,15 @@
+root directory		html/			0755	0755	
+wp-includes/		wp-includes/		0755	0755		
+wp-admin/index.php	wp-admin/index.php	0644	0644	
+wp-admin/js/		wp-admin/js/		0755	0755	
+wp-content/themes/	wp-content/themes/	0755	0755	
+wp-content/plugins/	wp-content/plugins/	0755	0755	
+wp-admin/		wp-admin/		0755	0755	
+wp-content/		wp-content/		0755	0755	
+wp-config.php		wp-config.php		0444	0444	
+phpMyAdmin		phpMyAdmin/		0755	0755
+
+carpetas   0755 == -R a+rwx,g-w,o-w,ug-s,-t
+archivos   0644 == -R a+rwx,u-x,g-wx,o-wx,ug-s,-t
+wp-content 0777 == -R a+rwx
+wpconfig y .htaccess 0444 == -R a+rwx,u-wx,g-wx,o-wx
